@@ -1,0 +1,14 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/bookmyshow?useSSL=false&serverTimezone=UTC
+    username: root
+    password: password
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    database-platform: org.hibernate.dialect.MySQLDialect
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+jwt:
+  secret: R9q2zJZ0n2QxN0ZkL8r5mV8cQ9pH5s7b1E4XyQk3N8A=
+  expiration: 3600000
