@@ -52,3 +52,10 @@ src/main/java/com/example/bookmyshow
 ├── exception          # Custom exceptions
 
 └── BookMyShowApplication.java
+
+---
+##  how to run>
+git clone https://github.com/shrishten/bms.git
+cd bms
+mvn clean install
+mvn spring-boot:run
