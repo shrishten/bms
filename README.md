@@ -55,7 +55,11 @@ src/main/java/com/example/bookmyshow
 
 ---
 ##  how to run>
+
 git clone https://github.com/shrishten/bms.git
+
 cd bms
+
 mvn clean install
+
 mvn spring-boot:run
