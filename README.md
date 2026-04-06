@@ -42,8 +42,13 @@ src/main/java/com/example/bookmyshow
 ├── repository         # JPA repositories
 
 ├── entities           # JPA entities
+
 ├── DTO                # Data Transfer Objects
+
 ├── enums              # Enums (BookingStatus, Roles)
+
 ├── security           # JWT & Security config
+
 ├── exception          # Custom exceptions
+
 └── BookMyShowApplication.java
