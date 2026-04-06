@@ -36,8 +36,11 @@ A **Spring Boot backend application** that implements core features of the BookM
 ## 📂 Project Structure
 src/main/java/com/example/bookmyshow
 ├── controllers        # REST controllers
+
 ├── service            # Business logic
+
 ├── repository         # JPA repositories
+
 ├── entities           # JPA entities
 ├── DTO                # Data Transfer Objects
 ├── enums              # Enums (BookingStatus, Roles)
